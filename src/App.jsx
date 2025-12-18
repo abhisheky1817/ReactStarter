@@ -1,7 +1,15 @@
+import CustomComponent from "./CustomComponent";
+import UsingStateVariable from "./UsingStateVariable";
+
+
 function App() {
   return (
     <div>
       <h1>Hello, React!</h1>
+
+      <CustomComponent />
+      <UsingStateVariable />
+
     </div>
   )
 }
