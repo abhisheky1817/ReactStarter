@@ -1,5 +1,10 @@
+import ChildrenPropDemo from "./ChildrenPropDemo";
 import CustomComponent from "./CustomComponent";
 import UsingStateVariable from "./UsingStateVariable";
+import ArrayWithMap from "./Components/ArrayRender/ArrayWithMap.jsx";
+import SortArray from "./Components/SortArray/SortArray.jsx";
+import SortArray2 from "./Components/SortArray/SortArray2.jsx";
+import SortingOriginalArray from "./Components/SortArray/SortingOriginalArray.jsx";
 
 
 function App() {
@@ -7,8 +12,21 @@ function App() {
     <div>
       <h1>Hello, React!</h1>
 
-      <CustomComponent />
       <UsingStateVariable />
+
+      <ChildrenPropDemo>
+          <CustomComponent />
+      </ChildrenPropDemo>
+
+      <ArrayWithMap />
+
+      <SortArray />
+       <br />
+      <SortArray2 />
+
+      <br />
+
+      <SortingOriginalArray />
 
     </div>
   )
