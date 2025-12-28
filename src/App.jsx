@@ -27,6 +27,7 @@ function App() {
       <br />
 
       <SortingOriginalArray />
+      <SortingOriginalArray />
 
     </div>
   )
